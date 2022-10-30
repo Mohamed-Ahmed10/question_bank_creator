@@ -1,0 +1,15 @@
+- var pageTitle = 'Dynamic form';
+<!DOCTYPE html>
+include pug/layout/IE-HTML
+html(lang="en")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        section.dynamic_form
+            include pug/components/sidebar
+            .table_container
+                h2 Our table
+                include pug/components/table
+        include pug/layout/scripts

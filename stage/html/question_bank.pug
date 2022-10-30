@@ -1,0 +1,17 @@
+- var pageTitle = 'Question bank';
+<!DOCTYPE html>
+include pug/layout/IE-HTML
+html(lang="en")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        section.question_bank
+            include pug/components/sidebar
+            .question_container
+                h2 Please Enter your question
+                small Note : you can not delete any previous added question ..... if you want it delete all
+                include pug/components/question_input_form
+                include pug/components/question_table
+        include pug/layout/scripts

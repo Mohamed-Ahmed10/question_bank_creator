@@ -1,0 +1,14 @@
+@import 'sass/variables/variables';
+@import 'sass/layout/global';
+
+//components
+@import 'sass/components/sidebar';
+@import 'sass/components/table';
+@import 'sass/components/question_table';
+
+
+//pages
+
+@import 'sass/pages/home_page';
+@import 'sass/pages/question_bank';
+@import 'sass/pages/dynamic_forms';

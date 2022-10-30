@@ -1,0 +1,21 @@
+.dynamic_form
+{
+    display: flex;
+    background-color: $page_background_color;
+
+    .table_container
+    {
+        margin: auto;
+        width: 65%;
+
+        h2
+        {
+            font-weight: bold;
+            text-align: center;
+            padding: 20px 0;
+            color: $h2_color;
+            box-shadow: 5px 5px 10px 1px $h2_box_shadow;
+            margin: 20px 0;
+        }
+    }
+}

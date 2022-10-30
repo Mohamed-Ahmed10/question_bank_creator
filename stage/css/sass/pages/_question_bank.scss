@@ -1,0 +1,26 @@
+.question_bank
+{
+    display: flex;
+    background-color: $page_background_color;
+
+    .question_container
+    {
+        margin: auto;
+        width: 65%;
+
+        h2
+        {
+            font-weight: bold;
+            text-align: center;
+            padding: 20px 0;
+            color: $h2_color ;
+            box-shadow: 5px 5px 10px 1px $h2_box_shadow;
+            margin: 20px 0;
+        }
+    }
+    #table_container
+    {
+        margin-bottom: 50px;
+    }
+}
+@import '../components/question_input_form'

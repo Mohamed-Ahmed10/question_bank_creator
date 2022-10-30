@@ -1,0 +1,22 @@
+
+        /************** ideas if time availabe ***************/
+
+HTML 
+
+CSS 
+
+- add class (correct)  to the right answer {{has a background color }}
+- esit the CSS to be fully responsive cause it has a bad UX with small screens
+- in home page side bar smaller edit it
+
+
+JS 
+
+- check if any input has no value >>> LINE 125
+- check if status at least one is true >>> LINE 136
+- reset all status to be false selectd after create new table  >>> LINE 99
+- in dynamic form page add an inputs to get values dynamic no static
+- in dynamic form page add a button that increase table Horizontally 
+- get data from Local storage an create tables with it  >>> LINE 161
+- then NO_7 add a button that remove the local storage and reset data with the excist tables 
+

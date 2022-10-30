@@ -1,0 +1,20 @@
+.sidebar
+    .site_logo
+        a(href="index.html") 
+            img(src="images/logo.png", alt="the site logo")
+    .user_info
+        .img_container
+            img(src="images/user.jpg", alt="user photo")
+        .username
+            h6 Mohamed Ahmed
+    ul 
+        li
+            if(pageTitle == "Question bank")
+                a(href="question_bank.html").active question bank
+            else
+                a(href="question_bank.html") question bank
+        li
+            if(pageTitle == "Dynamic form")
+                a(href="dynamic_form.html").active dynamic forms
+            else
+                a(href="dynamic_form.html") dynamic forms

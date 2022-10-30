@@ -1,0 +1,38 @@
+form
+    .form-row
+        .form-group.col-md-12
+            label(for='question') Question title
+            input#question.form-control(type='text', name='question')
+        .form-group.col-md-10
+            label(for='answer_one') answer one
+            input#answer_one_input.form-control(type='text', name='answer_one')
+        .form-group.col-md-2
+            label(for='answer_one_state') State
+            select#answer_one_state.form-control(name = 'answer_one_state')
+                option(selected) false
+                option true
+        .form-group.col-md-10
+            label(for='answer_two') answer two
+            input#answer_two_input.form-control(type='text', name='answer_two')
+        .form-group.col-md-2
+            label(for='answer_two_state') State
+            select#answer_two_state.form-control(name = 'answer_two_state')
+                option(selected) false
+                option true
+        .form-group.col-md-10
+            label(for='answer_three') answer three
+            input#answer_three_input.form-control(type='text', name='answer_three')
+        .form-group.col-md-2
+            label(for='answer_three_state') State
+            select#answer_three_state.form-control(name = 'answer_three_state')
+                option(selected) false
+                option true
+        .form-group.col-md-10
+            label(for='answer_four') answer four
+            input#answer_four_input.form-control(type='text', name='answer_four')
+        .form-group.col-md-2
+            label(for='answer_four_state') State
+            select#answer_four_state.form-control(name = 'answer_four_state')
+                option(selected) false
+                option true
+    button.btn.btn-primary(type='submit') Add

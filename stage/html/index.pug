@@ -1,0 +1,13 @@
+- var pageTitle = 'Home page';
+<!DOCTYPE html>
+include pug/layout/IE-HTML
+html(lang="en")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        section.home_page
+            include pug/components/sidebar
+            img(src="images/home_page_background.jpg", alt="home_page_background", srcset="")
+        include pug/layout/scripts
